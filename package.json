@@ -8,9 +8,9 @@
     },
     "scripts": {
         "dev": "nodemon ./src/index.ts",
-        "build": "tsup src",
-        "start": "node dist/index.js && prisma generate",
-        "prisma": "cd src && cd database && npx prisma migrate deploy"
+        "build": "tsup src/index.ts",
+        "start": "node ./dist/index.js && prisma generate",
+        "prisma": "npx prisma migrate deploy"
     },
     "repository": {
         "type": "git",
