@@ -1,4 +1,4 @@
-# :rocket: ADV.CO Front-end
+# :rocket: ADV.CO Back-end
 
 ## Teste para Desenvolvedor Junior em desenvolvimento de software
 
@@ -15,55 +15,52 @@ O desenvolvimento até o estado atual foi realizado no período de 3 dias, a pro
 ## 🛠️ Construído com
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Lorenzo-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Lorenzo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Lorenzo-Tailwind" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg">
+   <img align="center" alt="Lorenzo-NodeJs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Lorenzo-PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
 </div><br>
 
 ## 📌 Versão
 
 O projeto está em desenvolvimento
 
-#### Versão V0.1.0
+#### Versão V1.0.0
 
 ## Requirements
 
-- [vite](https://vitejs.dev/) >= 3.x.x
+- - [node](https://nodejs.org/en/download/) >= 18.x.x
 
 ## Teste o projeto
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/lorenzoMalutta/client-adv-co.git
+git clone  https://github.com/lorenzoMalutta/server-adv-co.git
 ```
 
 ### 2. Instale as dependências
 
 ```bash
-cd react-ts
 npm install
 ```
 
 ### 3. Edite os arquivos: 
 
 ```bash
-  react-ts/services/api para conectar com a sua api
+  src/index.ts para configurar sua porta de acesso
+  Utilize um .ENV para modificar a DATABASE_URL
 ```
 
 ### 4. Para executar o projeto execute:
 
 ```bash
-# frontend
-npm run dev
+# Back-end
+  npm run dev
 ```
 
-O back-end deve estar rodando para que o front-end funcione corretamente
-
-### 5. Lembre de ver o back-end do projeto!
+### 5. Lembre de ver o front-end do projeto!
 
 ```bash
- https://github.com/lorenzoMalutta/server-adv-co.git
+  https://github.com/lorenzoMalutta/client-adv-co.git
  ```
  
 ## ✒️ Autores
